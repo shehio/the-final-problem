@@ -3,7 +3,6 @@ import yaml
 with open('config.yaml') as f:
     data = yaml.safe_load(f)
 
-print(data['ip1'])
-print(data['ip2'])
-print(data['ip3'])
 
+def get_config(config_key):
+    return data[config_key]
