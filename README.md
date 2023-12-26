@@ -1,7 +1,5 @@
 # The Final Problem
-<p align="justify">
-As you might have guessed, The Final Problem references The Memoirs of Sherlock Holmes. In computer science, a cluster of computers can solve any problem, so solving for the abstractions of distributed computing is the final problem.
-</p>
+<div align="justify"> As you might have guessed, The Final Problem references The Memoirs of Sherlock Holmes. In computer science, a cluster of computers can solve any problem, so solving for the abstractions of distributed computing is the final problem. </div>
 
 ## The Plan
 <div align="justify">
