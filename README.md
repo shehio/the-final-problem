@@ -1,6 +1,10 @@
 # The Final Problem
 <div align="justify"> As you might have guessed, The Final Problem references The Memoirs of Sherlock Holmes. In computer science, a cluster of computers can solve any problem, so solving for the abstractions of distributed computing is the final problem. You could enjoy reading about this project while listening to <a href="https://youtu.be/uorGmVFwNQI?si=qKTMRNN-vwvqRQkY">Who You Really Are</a> soundtrack from British Sherlock! </div>
 
+<br/>
+
+![image](https://github.com/shehio/the-final-problem/assets/4094464/5cc9323f-77a9-4637-a5c9-36aff3b4d539)
+
 ## The Plan
 <div align="justify">
 The plan is to create a stateful cluster where the nodes can communicate with one another to solve problems. These nodes can split the workload amongst them based on their ability to compute (how socialist!). This cluster can have nodes on AWS or locally on <a href="https://www.raspberrypi.org/">Raspberry Pis</a> or Docker.
