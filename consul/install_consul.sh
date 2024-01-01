@@ -1,5 +1,6 @@
-aws  configure
+aws configure
 aws eks update-kubeconfig --name consul-cluster
+kubectl get pods
 
 helm repo add hashicorp https://helm.releases.hashicorp.com
 
