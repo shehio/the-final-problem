@@ -13,7 +13,7 @@ variable k8s_version {
 }
 
 variable k8s_cluster_name {
-    default = "myapp-eks-cluster"
+    default = "consul-cluster"
 }
 
 variable aws_region {
