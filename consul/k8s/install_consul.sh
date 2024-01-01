@@ -1,4 +1,3 @@
 helm repo add hashicorp https://helm.releases.hashicorp.com
-
-kubectl apply -f config-consul.yaml
+helm install eks hashicorp/consul -version 1.0.0 --values consul-values.yaml
 kubectl get pods
