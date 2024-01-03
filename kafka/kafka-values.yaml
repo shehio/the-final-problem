@@ -10,6 +10,10 @@ spec:
         port: 9092
         type: internal
         tls: false
+      - name: external
+        port: 9094  # Choose a different port for external access
+        type: loadbalancer
+        tls: false  # Enable TLS for external communication
     storage:
       type: ephemeral
   zookeeper:
