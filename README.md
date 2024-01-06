@@ -21,3 +21,7 @@ So far, the code that has been checked in:
 - <div align="justify"> <a href="https://www.consul.io/">Consul</a>: Consul works as a service registry and onboards new pods to the service mesh. Among many functionalities, it leverages Envoy's reverse proxy capabilities to route and secure traffic. Consul code is provided with an Elastic Kubernetes Service (EKS) installation. The cloud infrastructure is provided in Terraform, and the application itself is supplied in Helm. </div>
 - <div align="justify"> <a href="https://zookeeper.apache.org/">Zookeeper</a>: Zookeeper helps with coordination problems, as it abstracts the consensus problem away. The zookeeper folder provides a configuration file to manually deploy a cluster of zookeepers on a local/cloud cluster. It also provides a Python code example to communicate with the cluster from any node. </div>
 - <div align="justify"> <a href="https://www.envoyproxy.io/">Envoy</a>: Envoy is an out-of-process proxy that can be configured to reroute traffic and enable the service mesh. </div>
+
+
+### Prerequisites
+You have to provision the cluster (eks) before attempting the create any of the other tools.
