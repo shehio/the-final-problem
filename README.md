@@ -6,7 +6,7 @@
 
 ## The Plan
 <div align="justify">
-The plan is to create a stateful cluster where the nodes can communicate with one another to solve problems. These nodes can split the workload amongst them based on their ability to compute (how socialist!). This cluster can have nodes on AWS or locally on <a href="https://www.raspberrypi.org/">Raspberry Pis</a> or Docker.
+Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes can communicate with one another to solve problems. The nodes can split the workload amongst them based on their computational abilities (how socialist!). The cluster can have nodes in the cloud or on premise.
 </div>
 <br/>
 <div align="justify">
