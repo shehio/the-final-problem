@@ -16,7 +16,7 @@ We start by creating a <a href="https://en.wikipedia.org/wiki/Service_mesh">serv
 ## Currently
 
 So far, the code that has been checked in:
-- <div align="justify"> Setup: Scripts to install the orchestrating tools (not the infrastructure applications) and convenience tools on <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS</a> and Mac OS. </div>
+- <div align="justify"> Setup: Scripts to install orchestrating tools (not infrastructure) and convenience tools on <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS</a> and Mac OS. </div>
 - <div align="justify"> <a href="https://aws.amazon.com/eks/">Elastic Kubernetes Service</a>: Create an eks cluster in aws where all the other tools are going to be installed on top of. </div>
 - <div align="justify"> <a href="https://www.consul.io/">Consul</a>: Consul works as a service registry and onboards new pods to the service mesh. Among many functionalities, it leverages Envoy's reverse proxy capabilities to route and secure traffic. The application itself is supplied in Helm. </div>
 - <div align="justify"> <a href="https://zookeeper.apache.org/">Zookeeper</a>: Zookeeper helps with coordination problems, as it abstracts the consensus problem away. The zookeeper folder provides a configuration file to manually deploy a cluster of zookeepers on a local/cloud cluster. It also provides a Python code example to communicate with the cluster from any node. </div>
