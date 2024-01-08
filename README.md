@@ -21,6 +21,8 @@ So far, the code that has been checked in:
 - <div align="justify"> <a href="https://www.consul.io/">Consul</a>: A service registry that onboards new pods to the service mesh. Among many functionalities, it leverages Envoy's reverse proxy capabilities to route and secure traffic. </div>
 - <div align="justify"> <a href="https://www.envoyproxy.io/">Envoy</a>: Envoy is an out-of-process proxy that can be configured to reroute traffic and enable the service mesh. </div>
 - <div align="justify"> <a href="https://zookeeper.apache.org/">Zookeeper</a>: Zookeeper helps with coordination problems, as it abstracts the consensus problem away. The zookeeper folder provides a configuration file to manually deploy a cluster of zookeepers on a local/cloud cluster. It also provides a Python code example to communicate with the cluster from any node. </div>
+- <div align="justify"> <a href="https://kafka.apache.org/">Kafka</a>: Kafka is a high-speed messaging system for real-time data streams. In an asynchronous computational model, where data liberation is a concern, Kafka prevails. </div>
+- <div align="justify"> <a href="https://cadenceworkflow.io/">Cadence</a>: Cadence is a high-level fault-tolerant platform. It relies on a fault-oblivious stateful programming model. </div>
 
 ### Prerequisites
 You have to provision the cluster (EKS) before attempting to create any of the other tools.
