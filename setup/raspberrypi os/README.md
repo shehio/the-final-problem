@@ -9,8 +9,6 @@ If you're in doubt, run the following command in terminal: `cat /etc/os-release 
 2. **Disable power limits**: `sudo raspi-config` > `4 Performance Options` > `P4 USB Current` > `Would you like the USB current limit to be disabled?` > `<Yes>`.
 
 ### VPN
-**Install tailscale**: [instructions](https://tailscale.com/download/linux/debian-bookworm).
-
-**Configure the pi as an exit node**: run `sudo sysctl -w net.ipv4.ip_forward=1` then `sudo tailscale up --advertise-exit-node`.
-
-**Enable the exit node**: On [Tailscale Machines](https://login.tailscale.com/admin/machines) > `Choose the machine` > `...` > `Edit route settings ...` > `Checkbox: Use as exit node`.
+1. **Install tailscale**: [instructions](https://tailscale.com/download/linux/debian-bookworm).
+2. **Configure the pi as an exit node**: run `sudo sysctl -w net.ipv4.ip_forward=1` then `sudo tailscale up --advertise-exit-node`.
+3. **Enable the exit node**: On [Tailscale Machines](https://login.tailscale.com/admin/machines) > `Choose the machine` > `...` > `Edit route settings ...` > `Checkbox: Use as exit node`.
