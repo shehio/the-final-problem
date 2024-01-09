@@ -11,4 +11,4 @@ If you're in doubt, run the following command in terminal: `cat /etc/os-release 
 ### VPN
 Install tailscale using these [instructions](https://tailscale.com/download/linux/debian-bookworm).
 
-Configure the pi as an exit node using `sudo sysctl -w net.ipv4.ip_forward=1` then `sudo tailscale up --advertise-exit-node`
+Configure the pi as an exit node using `sudo sysctl -w net.ipv4.ip_forward=1` then `sudo tailscale up --advertise-exit-node`.
