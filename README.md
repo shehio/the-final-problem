@@ -14,7 +14,7 @@ We start by creating a <a href="https://en.wikipedia.org/wiki/Service_mesh">serv
 </div>
 
 ## Components
-- <div align="justify"> Setup: Scripts to install orchestrating tools on <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS.
+- <div align="justify"> Setup: Scripts to install orchestrating tools on <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS </a> </div>.
 - <div align="justify"> <a href="https://aws.amazon.com/eks/">Elastic Kubernetes Service</a>: Elastic Kubernetes Service is AWS offerring of managed Kubernetes.</div>
 - <div align="justify"> <a href="https://www.consul.io/">Consul</a>: Consul is a service registry that onboards new pods to the service mesh. It leverages Envoy's reverse proxy capabilities to route and secure traffic. </div>
 - <div align="justify"> <a href="https://www.envoyproxy.io/">Envoy</a>: Envoy is an out-of-process proxy that can be configured to reroute traffic and enable the service mesh. </div>
