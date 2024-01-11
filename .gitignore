@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 
-eks/variables.tf
+aws/eks/variables.tf
+aws/nuke-aws/nuke-config.yaml
