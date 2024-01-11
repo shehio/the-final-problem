@@ -12,7 +12,7 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
 
 ### How
 <div align="justify">
- Create a <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a> where microservices can exist on different nodes. The microservices can communicate with one another. Then we attempt to solve the consensus problem so that the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve from  We will then automate and offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
+ Create a <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a> where microservices can exist on different nodes and communicate with one another. By delegating consensus to other components, the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve from  We will then automate and offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
 </div>
 
 ### Components
