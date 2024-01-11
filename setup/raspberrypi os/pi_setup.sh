@@ -1,8 +1,8 @@
 sudo apt update
-sudo apt install snapd
-sudo snap install core
+sudo apt install snapd -y
+sudo snap install core -y
 
-sudo apt install awscli
+sudo apt install awscli -y
 
 sudo snap install terraform --classic
 sudo ln -s /snap/terraform/current/bin/terraform /snap/bin/
@@ -17,4 +17,5 @@ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scrip
 chmod 700 get_helm.sh
 ./get_helm.sh
 
-sudo apt install code
+sudo apt install code -y
+sudo apt install gitk -y
