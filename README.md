@@ -6,13 +6,13 @@
 
 ### The Plan
 <div align="justify">
-Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes, in the cloud or on premise, can communicate with one another to solve problems. The nodes can split the workload amongst them based on their computational abilities (how socialist!).
+Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes, in the cloud or on premise, can communicate with one another to solve problems. The nodes can split the workload amongst them based on their computational abilities (how socialist!). The problems can have a wide range from <a href="https://en.wikipedia.org/wiki/Number_theory">Number Theory</a> to Financial Mathematics, <a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software Defined Radio</a>, and Artificial Intelligence.
 </div>
 
 
 ### How
 <div align="justify">
-Different services live on different nodes. The microservices exist in <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a> where they can communicate with one another. Then we attempt to solve the consensus problem so that the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve from <a href="https://en.wikipedia.org/wiki/Number_theory">Number Theory</a>, Financial Mathematics, <a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software Defined Radio</a>, or Artificial Intelligence. We will then automate and offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
+Different services live on different nodes. The microservices exist in <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a> where they can communicate with one another. Then we attempt to solve the consensus problem so that the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve from  We will then automate and offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
 </div>
 
 ### Components
