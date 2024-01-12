@@ -166,3 +166,4 @@ aws/nuke-aws/nuke-config.yaml
 aws/eks/.terraform.*
 aws/eks/.terraform/
 aws/eks/terraform.tfstate
+aws/eks/terraform.tfstate.backup
