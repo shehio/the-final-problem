@@ -25,5 +25,10 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
 - <div align="justify"> <a href="https://cadenceworkflow.io/">Cadence</a>: Cadence is a high-level fault-tolerant platform. It relies on a fault-oblivious stateful programming model. </div>
 - <div align="justify"> <a href="https://redis.io/">Redis</a>: Redis is an open source in memory data store, often used as a cache for a variety of reasons. </div>
 
+### Concepts
+In this section, we'll cover many concepts related to distributed systems.
+- <div align="justify"> Setup: Scripts to install orchestrating tools on <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS </a>. </div>
+
+
 ### Prerequisites
 You have to provision the cluster (EKS) before attempting to create any of the other tools.
