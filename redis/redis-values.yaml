@@ -1,0 +1,4 @@
+master:
+  password: "hello-world"
+persistence:
+  enabled: true
