@@ -163,5 +163,6 @@ cython_debug/
 aws/eks/variables.tf
 aws/nuke-aws/nuke-config.yaml
 
-aws/eks/.terraform.lock.hcl
+aws/eks/.terraform.*
 aws/eks/.terraform/
+aws/eks/terraform.tfstate
