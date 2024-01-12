@@ -27,8 +27,9 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
 
 ### Concepts
 In this section, we'll cover many concepts related to distributed systems.
-- <div align="justify"> Availability </div>
 - <div align="justify"> Consistency </div>
+- <div align="justify"> Availability </div>
+- <div align="justify"> Partition Tolerance </div>
 - <div align="justify"> Scalability </div>
 - <div align="justify"> Concurrency </div>
 - <div align="justify"> Consensus </div>
