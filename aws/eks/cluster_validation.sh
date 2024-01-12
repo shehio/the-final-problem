@@ -1,3 +1,3 @@
-aws configure
-aws eks update-kubeconfig --name consul-cluster
+aws eks update-kubeconfig --name myapp-eks-cluster
 kubectl get pods
+kubectl get service
