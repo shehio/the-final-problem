@@ -31,9 +31,11 @@ In this section, we'll cover many concepts related to distributed systems.
 - <div align="justify"> Availability </div>
 - <div align="justify"> Partition Tolerance </div>
 - <div align="justify"> Scalability </div>
-- <div align="justify"> Concurrency </div>
 - <div align="justify"> Consensus </div>
-
+- <div align="justify"> Concurrency </div>
+- <div align="justify"> Fault Tolerance </div>
+- <div align="justify"> Observability </div>
+- <div align="justify"> Security </div>
 
 ### Prerequisites
 You have to provision the cluster (EKS) before attempting to create any of the other tools.
