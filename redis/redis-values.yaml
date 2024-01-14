@@ -1,4 +1,7 @@
-master:
-  password: "hello-world"
-persistence:
-  enabled: true
+cluster:
+  nodes: 3
+  replicas: 2
+  externalAccess:
+    enabled: true
+    service:
+      type: LoadBalancer
