@@ -17,8 +17,8 @@ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scrip
 chmod 700 get_helm.sh
 ./get_helm.sh
 
-sudo apt install redis-tools
-sudo apt install zookeeper
+sudo apt install redis-tools -y
+sudo apt install zookeeper -y
 
 sudo apt install code -y
 sudo apt install gitk -y
