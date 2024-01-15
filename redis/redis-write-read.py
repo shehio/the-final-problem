@@ -1,14 +1,15 @@
 import redis
 
-redis_host = 'my-redis-master'
+# todo: Get the service ip from env variables
+redis_host = ' ' # fill in the host here
 redis_port = 6379
 
-client = redis.Redis(host=redis_host, port=redis_port, password='hello-world')
+# todo: Get the password from env variables
+client = redis.Redis(host=redis_host, port=redis_port, password=' ') # fill in the password here
 
-client.set('key', 'value')
-client.setex('key_expiring', 10, 'value_expiring')
+client.set('hello', 'world')
 
-value = client.get('key')
+print(client.exists('hello'))
+
+value = client.get('hello')
 print(value.decode())
-
-print(client.exists('key'))
