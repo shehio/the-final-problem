@@ -1,7 +1,0 @@
-cluster:
-  nodes: 3
-  replicas: 2
-  externalAccess:
-    enabled: true
-    service:
-      type: LoadBalancer
