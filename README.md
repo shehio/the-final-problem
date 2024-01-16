@@ -53,4 +53,8 @@ You have to provision the cluster (EKS) before attempting to create any of the o
   - Add icons for the tools used
   - Add service communication figure
 - Problems
-  - Create prime lists
+  - Create prime lists based where different pods reserve chunks of numbers and test their primality -- based on zookeeper
+- Misc
+  - Clean up different READMEs
+  - Make all scripts unblocking and executable
+  - Provide AMD64 Debian/Ubuntu setup scripts
