@@ -39,3 +39,8 @@ In this section, we'll cover many concepts related to distributed systems.
 
 ### Prerequisites
 You have to provision the cluster (EKS) before attempting to create any of the other tools.
+
+### Todos
+- Add Consul POC based on demo microservices
+- Add Kafka POC based on demo microservices
+- Add Zookeeper in helm
