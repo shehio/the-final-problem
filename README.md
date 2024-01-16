@@ -44,3 +44,5 @@ You have to provision the cluster (EKS) before attempting to create any of the o
 - Add Consul POC based on demo microservices
 - Add Kafka POC based on demo microservices
 - Add Zookeeper in helm
+- Separate home lab code from the cluster code under the setup directory
+- Remove or Modify the code for setup/mac
