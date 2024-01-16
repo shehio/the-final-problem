@@ -58,3 +58,6 @@ You have to provision the cluster (EKS) before attempting to create any of the o
   - Clean up different READMEs
   - Make all scripts unblocking and executable
   - Provide AMD64 Debian/Ubuntu setup scripts
+ 
+ ### Future Plans
+ Provide an API that makes sense to tackle the largest number of problems: A parser to parse commands and creates infra structure for the specific problem.
