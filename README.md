@@ -51,3 +51,5 @@ You have to provision the cluster (EKS) before attempting to create any of the o
 - Visualization
   - Add icons for the tools used
   - Add service communication figure
+- Problems
+  - Create prime lists
