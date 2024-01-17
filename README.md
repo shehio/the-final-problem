@@ -1,21 +1,22 @@
 # The Final Problem
+
+### What
 <div align="justify"> As you might have guessed, The Final Problem references The Memoirs of Sherlock Holmes. In computer science, a cluster of computers can solve any problem, so solving for the abstractions of distributed computing is the final problem. You could enjoy reading about this project while listening to <a href="https://youtu.be/uorGmVFwNQI?si=qKTMRNN-vwvqRQkY">Who You Really Are</a> soundtrack from British Sherlock! </div>
 <br/>
 
 ![image](https://github.com/shehio/the-final-problem/assets/4094464/fd77053b-dadf-4cb3-afd1-5cc7b47e08b4)
 
-### The Plan
+### Why
 <div align="justify">
-Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes, in the cloud or on premise, can communicate with one another to solve problems. The nodes can split the workload amongst them based on their computational abilities (how socialist!). The problems can have a wide range from <a href="https://en.wikipedia.org/wiki/Number_theory">Number Theory</a> to Financial Mathematics, <a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software Defined Radio</a>, and Artificial Intelligence.
+Solve problems with a wide range from <a href="https://en.wikipedia.org/wiki/Number_theory">Number Theory</a> to Financial Mathematics, <a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software Defined Radio</a>, and Artificial Intelligence.
 </div>
-
 
 ### How
 <div align="justify">
- Create a <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a> where microservices can exist on different nodes and communicate with one another. By delegating consensus to other components, the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve. We will then offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
+Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes, in the cloud or on premise, can communicate with one another using a <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a>. The nodes can split the workload amongst them based on their computational abilities (how socialist!). By delegating consensus to other components, the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve. We will then offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
 </div>
 
-### Components
+### Distributed Components
 - <div align="justify"> Setup: Scripts to install orchestrating tools on <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS </a>. </div>
 - <div align="justify"> <a href="https://aws.amazon.com/eks/">Elastic Kubernetes Service</a>: Elastic Kubernetes Service is AWS offerring of managed Kubernetes.</div>
 - <div align="justify"> <a href="https://www.consul.io/">Consul</a>: Consul is a service registry that onboards new pods to the service mesh. It leverages Envoy's reverse proxy capabilities to route and secure traffic. </div>
