@@ -22,18 +22,15 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
   - Add Kafka POC based on demo microservices
   - Add Zookeeper in helm
   - Explore Redis options in AWS
-- Home Lab
-  - Separate home lab code from the cluster code under the setup directory
-  - Remove or Modify the code for setup/mac
 - Visualization
   - Add icons for the tools used
   - Add service communication figure
 - Problems
-  - Create prime lists based where different pods reserve chunks of numbers and test their primality -- based on zookeeper
+  - Create prime lists based on where different pods reserve chunks of numbers and test their primality -- based on zookeeper
 - Misc
   - Clean up different READMEs
   - Make all scripts unblocking and executable
   - Provide AMD64 Debian/Ubuntu setup scripts
  
  ### Future Plans
- Provide an API that makes sense to tackle the largest number of problems: A parser to parse commands and creates infra structure for the specific problem.
+ Provide a sensible API to tackle a number of problems: A parser parses commands and creates infrastructure for the specific problem.
