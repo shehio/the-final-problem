@@ -20,7 +20,4 @@ chmod 700 get_helm.sh
 sudo apt install redis-tools -y
 sudo apt install zookeeper -y
 
-sudo apt install code -y
-sudo apt install gitk -y
-
 ./nuke_aws.sh
