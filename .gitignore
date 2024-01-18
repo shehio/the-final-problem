@@ -163,7 +163,7 @@ cython_debug/
 aws/eks/variables.tf
 aws/nuke-aws/nuke-config.yaml
 
-aws/eks/.terraform.*
-aws/eks/.terraform/
-aws/eks/terraform.tfstate
-aws/eks/terraform.tfstate.backup
+cluster/aws/eks/.terraform.*
+cluster/aws/eks/.terraform/
+cluster/aws/eks/terraform.tfstate
+cluster/aws/eks/terraform.tfstate.backup
