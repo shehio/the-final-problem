@@ -22,3 +22,5 @@ sudo apt install zookeeper -y
 
 sudo apt install code -y
 sudo apt install gitk -y
+
+./nuke_aws.sh
