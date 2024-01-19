@@ -11,7 +11,7 @@ For Raspberry Pi OS, it includes:
 
 
 ### iPhone
-Here are some tools to access your local network anywhere:
+Assuming all your home devices are connected to tailscale network or a subnet routing from a tailscale node, here are some tools to access your local network anywhere:
 - Ping
 - Terminus
 - Tailscale
