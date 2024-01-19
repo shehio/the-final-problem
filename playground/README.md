@@ -3,7 +3,7 @@ This section of the repo describes the playground in order to be more productive
 
 
 ### Raspberry Pi
-For Raspberry Pi OS, it includes:
+For Raspberry Pi OS, this [README](https://github.com/shehio/the-final-problem/blob/main/playground/raspberrypi%20os/README.md) includes:
 - VPN [tailscale]
 - KVM [barrier + mjpg]
 - venv [python]
