@@ -16,3 +16,8 @@ Assuming all your home devices are connected to tailscale network or a subnet ro
 - [Termius](https://apps.apple.com/us/app/termius-terminal-ssh-client/id549039908): SSH into your nodes
 - [Tailscale](https://apps.apple.com/us/app/tailscale/id1470499037): Connect iPhone to the local network and even use any of the nodes as an exit node
 - [Passepartout](https://apps.apple.com/us/app/passepartout-vpn-client/id1433648537?platform=iphone): Connect to Wireguard or OpenVPN servers
+
+
+### GL-iNet Routers
+- Home Router
+- Travel Router
