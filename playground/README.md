@@ -12,3 +12,7 @@ For Raspberry Pi OS, it includes:
 
 ### iPhone
 Here are some tools to access your local network anywhere:
+- Ping
+- Terminus
+- Tailscale
+- Passepartout
