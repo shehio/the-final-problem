@@ -12,7 +12,7 @@ For Raspberry Pi OS, it includes:
 
 ### iPhone
 Assuming all your home devices are connected to tailscale network or a subnet routing from a tailscale node, here are some tools to access your local network anywhere:
-- Ping
-- Terminus
-- Tailscale
-- Passepartout
+- Ping: Ping any node in your local network
+- Terminus: SSH into your nodes
+- Tailscale: Connect iPhone to the local network and even use any of the nodes as an exit node
+- Passepartout: Connect to Wireguard or OpenVPN server 
