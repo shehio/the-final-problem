@@ -40,7 +40,7 @@ To enable this camera on zoom on any node on the network:
 - In Zoom > Preferences > Video > OBS Virtual Camera
 
 ### Install Tools:
-Run `./install_apps.sh`
+Run `./install_apps.sh && ./cloud/install_cloud_apps.sh`
 
 ### VPN
 1. **Configure the pi as an exit node**: run `sudo sysctl -w net.ipv4.ip_forward=1` then `sudo tailscale up --advertise-exit-node`.
