@@ -14,8 +14,9 @@ sudo snap install k9s
 sudo ln -s /snap/k9s/current/bin/k9s /snap/bin/
 
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
-chmod 700 get_helm.sh
+sudo chmod +x get_helm.sh
 ./get_helm.sh
+rm get_helm.sh
 
 sudo apt install redis-tools -y
 sudo apt install zookeeper -y
