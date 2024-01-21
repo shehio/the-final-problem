@@ -1,5 +1,6 @@
-sudo apt-get install cmake libjpeg62-turbo-dev
-sudo apt-get install gcc g++
+sudo apt update
+sudo apt install cmake libjpeg62-turbo-dev -y
+sudo apt install gcc g++ -y
 git clone https://github.com/jacksonliam/mjpg-streamer.git
 cd mjpg-streamer/mjpg-streamer-experimental/
 make
