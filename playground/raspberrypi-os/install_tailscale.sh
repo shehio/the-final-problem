@@ -4,6 +4,6 @@ curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.tailscale-keyring.l
 sudo apt update
 sudo apt install tailscale
 
-sudo tailscale up
-
+sudo sysctl -w net.ipv4.ip_forward=1
+sudo tailscale up --advertise-exit-node
 tailscale ip -4
