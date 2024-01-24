@@ -31,6 +31,7 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
   - Clean up different READMEs
   - Make all scripts unblocking and executable
   - Provide AMD64 Debian/Ubuntu setup scripts
+  - Discuss how we should allocate different resources and why: Native AWS vs on top of EKS.
  
  ### Future Plans
  Provide a sensible API to tackle a number of problems: A parser parses commands and creates infrastructure for the specific problem.
