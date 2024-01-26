@@ -32,10 +32,6 @@ Check localhost:8080 for the stream on the same node
 
 For any node on the network: it should be {ipaddress}:8080 or custom ip address from tailscale if you're using overlay VPN
 
-#### Storage
-What’s the max read/write per second storage can handle with the pi serial bus?
-
-
 To enable this camera on zoom on any node on the network:
 - Install OBS
 - In source, add browser
@@ -52,3 +48,6 @@ Run `./install_apps.sh && ./cloud/install_cloud_apps.sh`
 
 ### venv
 Run `./python_setup.sh` in the root of the repo.
+
+### Storage
+What’s the max read/write per second storage can handle with the pi serial bus?
