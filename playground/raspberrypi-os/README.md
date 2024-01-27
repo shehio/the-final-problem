@@ -53,3 +53,5 @@ Run `./python_setup.sh` in the root of the repo.
 What’s the max read/write per second storage can handle with the pi serial bus?
 - lsblk —> choose the name of the device (something like sda / sdb)
 -  sudo hdparm -t --direct /dev/{device name}
+PCIv2 expects around 400 MB/sec (verified)
+PCIv3 expects around 800 MB/sec (not verified)
