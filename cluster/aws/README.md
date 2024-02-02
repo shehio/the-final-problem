@@ -11,4 +11,6 @@ Run `aws configure`.
 - Run `./aliasing_aws.sh`.
 
 ### Nuke all Resources
+Enter the account id in nuke-config.yaml
 Run `aws-nuke -c nuke-config.yaml --no-dry-run`.
+Do you want to continue? Enter account alias to continue. >> Enter the alias.
