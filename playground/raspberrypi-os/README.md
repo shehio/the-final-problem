@@ -58,6 +58,8 @@ PCIv2 expects around 400 MB/sec (verified)
 
 PCIv3 expects around 800 MB/sec (verified)
 
+To enable PCIv3, run `sudo nano /boot/firmware/config.txt` add `dtparam=pciex1_gen=3` at the end of the file, and then `sudo reboot`.
+
 
 ### git
 Run `git config --global user.email "you@example.com"` and `git config --global user.name "Your Name"`
