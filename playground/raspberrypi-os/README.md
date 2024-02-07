@@ -57,3 +57,7 @@ What’s the max read/write per second storage can handle with the pi serial bus
 PCIv2 expects around 400 MB/sec (verified)
 
 PCIv3 expects around 800 MB/sec (not verified)
+
+
+### git
+Run `git config --global user.email "you@example.com"` and `git config --global user.name "Your Name"`
