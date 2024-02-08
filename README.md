@@ -28,10 +28,9 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
 - Problems
   - Create prime lists based on where different pods reserve chunks of numbers and test their primality -- based on zookeeper
 - Misc
-  - Clean up different READMEs
-  - Make all scripts unblocking and executable
+  - Create a master script for playground
   - Provide AMD64 Debian/Ubuntu setup scripts
-  - Discuss how we should allocate different resources and why: Native AWS vs on top of EKS.
+  - Discuss how we should allocate different resources and why: Native AWS vs on top of EKS
  
  ### Future Plans
  Provide a sensible API to tackle a number of problems: A parser parses commands and creates infrastructure for the specific problem.
