@@ -1,3 +1,4 @@
+Run the consumer before the producer, otherwise configure the kafka cluster for message retention.
 Set the bootstrap_servers in `kafka-consumer.py` on line 6 by getting the EXTERNAL-IP from `kubectl get service` for the pods of TYPE LoadBalancer.
 Set the bootstrap_servers in `kafka-producer.py` on line 6 by getting the EXTERNAL-IP from `kubectl get service` for the pods of TYPE LoadBalancer.
 
