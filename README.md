@@ -18,11 +18,10 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
 
 ### Todos
 - Infra
-  - Add Kafka POC based on demo microservices
-  - Remove current Redis in Helm
+  - Repurpose the kafka-consumer/producer to their own kafka-apps in docker files for demo microservices
+  - Remove current Redis in Helm and explore Redis options in AWS
   - Add Zookeeper in helm
   - Add Consul POC based on demo microservices
-  - Explore Redis options in AWS
 - Visualization
   - Add icons for the tools used
   - Add service communication figure
