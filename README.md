@@ -18,9 +18,10 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
 
 ### Todos
 - Infra
-  - Add Consul POC based on demo microservices
   - Add Kafka POC based on demo microservices
+  - Remove current Redis in Helm
   - Add Zookeeper in helm
+  - Add Consul POC based on demo microservices
   - Explore Redis options in AWS
 - Visualization
   - Add icons for the tools used
