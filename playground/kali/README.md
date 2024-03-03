@@ -25,7 +25,7 @@ These instructions have been tested for Kali version: {}
 ## Setup tailscale subnet
 
 ### Advertise routes
-sudo tailscale up --advertise-routes=10.10.10.1/24 --exit-node={tailscale-exit-node-ip} --exit-node-allow-lan-access
+`sudo tailscale up --advertise-routes=10.10.10.1/24 --exit-node={tailscale-exit-node-ip} --exit-node-allow-lan-access`
 
 ### Configure tailscale acl
 {
@@ -33,4 +33,4 @@ sudo tailscale up --advertise-routes=10.10.10.1/24 --exit-node={tailscale-exit-n
 }
 
 ### Accept routes on the tailscale exit node
-sudo tailscale up --accept-routes
+`sudo tailscale up --accept-routes`
