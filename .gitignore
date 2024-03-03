@@ -169,3 +169,4 @@ cluster/aws/eks/terraform.tfstate
 cluster/aws/eks/terraform.tfstate.backup
 
 temporal.db
+cluster/components/temporal/charts/*
