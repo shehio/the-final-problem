@@ -34,3 +34,7 @@ These instructions have been tested for Kali version: {}
 
 ### Accept routes on the tailscale exit node
 `sudo tailscale up --accept-routes`
+
+
+## References
+- [Subnet routers and traffic relay nodes](https://tailscale.com/kb/1019/subnets)
