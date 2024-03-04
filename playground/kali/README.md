@@ -9,7 +9,10 @@ These instructions have been tested for Kali version: {}
 
 ### Assign wlan0 to an ip address
 `ip addr show wlan0`
+
 `sudo ip addr add 10.10.10.1/24 dev wlan0`
+
+`ip addr show wlan0`
 
 ### Configure hostapd
 Add
