@@ -2,14 +2,10 @@
 ## Create a router + access point
 These instructions have been tested for Kali version: {}
 
-### Pre-req
-`sudo apt-get update && sudo apt-get upgrade -y`
-
-### Install access point software
-`sudo apt-get install hostapd -y`
-
-### Install dhcp software
-`sudo apt-get install udhcpd -y`
+### Install dependencies
+- Pre-req: `sudo apt-get update && sudo apt-get upgrade -y`
+- Install access point software: `sudo apt-get install hostapd -y`
+- Install dhcp software: `sudo apt-get install udhcpd -y`
 
 ### Assign wlan0 to an ip address
 `ip addr show wlan0`
