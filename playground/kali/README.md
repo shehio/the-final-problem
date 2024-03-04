@@ -8,7 +8,7 @@ These instructions have been tested for Kali version: {}
 ### Install access point software
 `sudo apt-get install hostapd -y`
 
-## Configure hostapd
+### Configure hostapd
 Add
 ```
 interface=wlan0
