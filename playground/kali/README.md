@@ -34,6 +34,16 @@ rsn_pairwise=CCMP
 ```
 to `hostapd.conf`
 
+### Configure udhcpd
+Add
+```
+interface wlan0
+static ip_address=10.10.10.0/24
+static routers=10.10.10.1
+static domain_name_servers=10.10.10.1 8.8.8.8
+```
+to `udhcpd.conf`
+
 ### Forward traffic from wlan0 to eth0
 `sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE`
 
