@@ -8,6 +8,13 @@ These instructions have been tested for Kali version: {}
 ### Install access point software
 `sudo apt-get install hostapd -y`
 
+### Install dhcp software
+`sudo apt-get install udhcpd -y`
+
+### Assign wlan0 to an ip address
+`ip addr show wlan0`
+`sudo ip addr add 10.10.10.1/24 dev wlan0`
+
 ### Configure hostapd
 Add
 ```
@@ -27,13 +34,6 @@ wpa_pairwise=TKIP
 rsn_pairwise=CCMP
 ```
 to `hostapd.conf`
-
-### Install dhcp software
-`sudo apt-get install udhcpd -y`
-
-### Assign wlan0 to an ip address
-`ip addr show wlan0`
-`sudo ip addr add 10.10.10.1/24 dev wlan0`
 
 ### Forward traffic from wlan0 to eth0
 `sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE`
