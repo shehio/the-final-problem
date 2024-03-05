@@ -1,5 +1,4 @@
-## Create a Router and an Access Point using a Raspberry Pi
-These instructions have been tested for Kali version: {}
+## Create a Router and an Access Point
 
 ### Install dependencies
 - Pre-req: `sudo apt-get update && sudo apt-get upgrade -y`
