@@ -46,9 +46,6 @@ Run `./install_apps.sh && ./cloud/install_cloud_apps.sh`
 1. **Configure the pi as an exit node**: run `sudo sysctl -w net.ipv4.ip_forward=1` then `sudo tailscale up --advertise-exit-node`.
 2. **Enable the exit node**: On [Tailscale Machines](https://login.tailscale.com/admin/machines) > `Choose the machine` > `...` > `Edit route settings ...` > `Checkbox: Use as exit node`.
 
-### venv
-Run `./python_setup.sh` in the root of the repo.
-
 ### Storage
 What’s the max read/write per second storage can handle with the pi serial bus?
 - `lsblk` —> choose the name of the device (something like sda / sdb)
@@ -63,3 +60,7 @@ To enable PCIv3, run `sudo nano /boot/firmware/config.txt` add `dtparam=pciex1_g
 
 ### git
 Run `git config --global user.email "you@example.com"` and `git config --global user.name "Your Name"`
+
+
+### venv
+Run `./python_setup.sh` in the root of the repo.
