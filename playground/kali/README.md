@@ -1,19 +1,4 @@
-## Setup tailscale subnet
-
-### Advertise routes
-`sudo tailscale up --advertise-routes=10.10.10.1/24 --exit-node={tailscale-exit-node-ip} --exit-node-allow-lan-access`
-
-### Configure tailscale ACL
-Add this ACL to [tailscale](https://login.tailscale.com/admin/acls/file)
-{
-			"action": "accept",
-			"src":    ["10.10.10.0/24"],
-			"dst":    ["10.10.10.0/24:*"],
-}
-
-### Accept routes on the tailscale exit node
-`sudo tailscale up --accept-routes`
-
-
-## References
-- [Subnet routers and traffic relay nodes](https://tailscale.com/kb/1019/subnets)
+## Kali on Raspberry Pi 5
+These instructions have been tested for Kali version: {}
+- [How to create a router and an access point](https://github.com/shehio/the-final-problem/blob/main/playground/kali/router/README.md)
+- [How to add the router on the tailscale network and have it as subnet router](https://github.com/shehio/the-final-problem/tree/main/playground/kali/tailscale-subnet)
