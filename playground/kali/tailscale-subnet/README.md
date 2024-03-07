@@ -5,11 +5,12 @@
 
 ### Configure tailscale ACL
 Add this ACL to [tailscale](https://login.tailscale.com/admin/acls/file)
-\{\
+
+{\
 	"action": "accept",\
 	"src":    ["10.10.10.0/24"],\
 	"dst":    ["10.10.10.0/24:*"],\
-}\
+}
 
 ### Accept routes on the tailscale exit node
 `sudo tailscale up --accept-routes`
