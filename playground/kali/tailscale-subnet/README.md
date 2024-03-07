@@ -1,4 +1,6 @@
 ## Setup tailscale subnet
+This is the setup to create a subnet from a device that has tailscale installed to devices that don't have tailscale installed.
+Although the subnet router could be any device, this is tested on a Raspberry Pi 5 with Kali Linux.
 
 ### Advertise routes
 `sudo tailscale up --accept-routes --advertise-routes=10.10.10.0/24 --exit-node={tailscale-exit-node-ip} --exit-node-allow-lan-access`
