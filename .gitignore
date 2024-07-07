@@ -170,3 +170,6 @@ cluster/aws/eks/terraform.tfstate.backup
 
 temporal.db
 cluster/components/temporal/charts/*
+
+# For cluster secrets
+cluster/aws/eks/variables.tf
