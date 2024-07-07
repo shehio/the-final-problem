@@ -1,2 +1,2 @@
-choice: https://docs.bitnami.com/kubernetes/infrastructure/redis-cluster/get-started/compare-solutions/
-cluster management params: https://github.com/bitnami/charts/tree/main/bitnami/redis-cluster
+Cluster Provision: `./scripts/cluster_provision.sh`
+Cluster Verification: `./scripts/cluster_verification.sh`
