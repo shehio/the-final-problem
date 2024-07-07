@@ -34,3 +34,10 @@ Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">statef
  
  ### Future Plans
  Provide a sensible API to tackle a number of problems: A parser parses commands and creates infrastructure for the specific problem.
+
+
+#### How to?
+1. Install python.
+2. Activate the virtual environment `./setup_python.sh && source ./venv/bin/activate`.
+3. Start the aws eks cluster: Check `./cluster/aws/eks/README.md`.
+4. Install components.
