@@ -1,0 +1,51 @@
+[Event "Cambridge"]
+[Site "Cambridge"]
+[Date "1977.03.01"]
+[Round "?"]
+[White "Greenblatt Programm"]
+[Black "Fischer, Robert James"]
+[Result "0-1"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B92"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e5 7.Nb3 Be7 8.Be3 O-O
+9.Qd3 Be6 10.O-O Nbd7 11.Nd5 Rc8 12.Nxe7+ Qxe7 13.f3 d5 14.Nd2 Qb4 15.Nb3 dxe4
+16.Qd1 Nd5 17.Ba7 b6 18.c3 Qe7 19.fxe4 Ne3 20.Qd3 Nxf1 21.Qxa6 Ne3 22.Bxb6 Qg5
+23.g3 Ra8 24.Ba7 h5 25.Qb7 h4 26.Kf2 hxg3+ 27.hxg3 f5 28.exf5 Rxf5+ 29.Ke1 Raf8
+30.Kd2 Nc4+ 31.Kc2 Qg6 32.Qe4 Nd6 33.Qc6 Rf2+ 34.Kd1 Bg4 35.Bxf2 Qd3+ 36.Kc1 Bxe2
+37.Nd2 Rxf2 38.Qxd7 Rf1+ 39.Nxf1 Qd1+  0-1
+
+[Event "Cambridge"]
+[Site "Cambridge"]
+[Date "1977.03.01"]
+[Round "?"]
+[White "Greenblatt Programm"]
+[Black "Fischer, Robert James"]
+[Result "0-1"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B34"]
+
+1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 cxd4 5.Nxd4 Nc6 6.Be3 Nf6 7.Nxc6 bxc6 8.e5 Ng8
+9.f4 f6 10.exf6 Nxf6 11.Bc4 d5 12.Be2 Rb8 13.b3 Ng4 14.Bd4 e5 15.fxe5 O-O
+16.Bxg4 Qh4+ 17.g3 Qxg4 18.Qxg4 Bxg4 19.Rf1 Rxf1+ 20.Kxf1 c5 21.Bf2 Bxe5
+22.Be1 Rf8+ 23.Kg2 Rf3 24.h3 Rxc3 25.Bxc3 Bxc3 26.Rf1 Bf5 27.Rf2 h5 28.Re2 Kf7
+29.Re3 Bd4 30.Rf3 Ke6 31.c3 Be5 32.Re3 d4 33.cxd4 cxd4 34.Re1 d3 35.h4 d2
+36.Rd1 Bc3 37.Kf2 Bg4 38.Rh1 Bd4+ 39.Kg2 Kd5 40.a3 Ke4 41.Rf1 Kd3 42.Kh2 Ke2
+43.Kg2 Bh3+ 44.Kxh3 Kxf1 45.b4 d1=Q 46.Kh2 Qe2+ 47.Kh3 Qg2+  0-1
+
+[Event "Cambridge"]
+[Site "Cambridge"]
+[Date "1977.03.01"]
+[Round "?"]
+[White "Fischer, Robert James"]
+[Black "Greenblatt Programm"]
+[Result "1-0"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "C33"]
+
+1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6 5.Nc3 Bb4 6.Nf3 O-O 7.O-O Nxd5 8.Nxd5 Bd6
+9.d4 g5 10.Nxg5 Qxg5 11.e5 Bh3 12.Rf2 Bxe5 13.dxe5 c6 14.Bxf4 Qg7 15.Nf6+ Kh8
+16.Qh5 Rd8 17.Qxh3 Na6 18.Rf3 Qg6 19.Rc1 Kg7 20.Rg3 Rh8 21.Qh6+  1-0
