@@ -1,4 +1,5 @@
 import chess.pgn
+import os
 import uuid
 from datetime import datetime
 from cassandra.cluster import Cluster
@@ -9,7 +10,7 @@ CASSANDRA_HOSTS = ['127.0.0.1']
 CASSANDRA_PORT = 9042
 CASSANDRA_KEYSPACE = 'my_keyspace'
 CASSANDRA_USERNAME = 'cassandra'
-CASSANDRA_PASSWORD = '0taIgfmbx1'
+CASSANDRA_PASSWORD = os.environ['CASSANDRA_PASSWORD']  # See ../README.md for how to fetch it from the cluster secret
 
 # Connect to Cassandra
 auth_provider = PlainTextAuthProvider(username=CASSANDRA_USERNAME, password=CASSANDRA_PASSWORD)
