@@ -10,7 +10,7 @@ Solve problems with a wide range from <a href="https://en.wikipedia.org/wiki/Num
 
 ### How
 <div align="justify">
-Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes, in the cloud or on premise, can communicate with one another using a <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a>. The nodes can split the workload amongst them based on their computational abilities (how socialist!). By delegating consensus to other components, the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve. We will then offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://kafka.apache.org/(https://cadenceworkflow.io/)">fault-oblivious models</a>.
+Create a <a href="https://en.wikipedia.org/wiki/State_(computer_science)">stateful</a> cluster where the nodes, in the cloud or on premise, can communicate with one another using a <a href="https://en.wikipedia.org/wiki/Service_mesh">service mesh</a>. The nodes can split the workload amongst them based on their computational abilities (how socialist!). By delegating consensus to other components, the stateful cluster can make progress for any generic problem. At that point, we'll introduce some problems the cluster can solve. We will then offload some of these responsibilities to higher-level abstractions like <a href="https://kafka.apache.org/">decoupling data streams</a> and <a href="https://cadenceworkflow.io/">fault-oblivious models</a>.
 </div>
 <br/>
 
