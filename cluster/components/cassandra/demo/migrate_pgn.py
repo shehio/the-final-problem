@@ -10,7 +10,7 @@ CASSANDRA_HOSTS = ['127.0.0.1']
 CASSANDRA_PORT = 9042
 CASSANDRA_KEYSPACE = 'my_keyspace'
 CASSANDRA_USERNAME = 'cassandra'
-CASSANDRA_PASSWORD = os.environ['CASSANDRA_PASSWORD']  # See ../README.md for how to fetch it from the cluster secret
+CASSANDRA_PASSWORD = os.environ['CASSANDRA_PASSWORD']  # Injected by `op run --env-file=cassandra.env`; see ../README.md
 
 # Connect to Cassandra
 auth_provider = PlainTextAuthProvider(username=CASSANDRA_USERNAME, password=CASSANDRA_PASSWORD)
