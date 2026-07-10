@@ -1,6 +1,10 @@
+import os
+
 import yaml
 
-with open('config.yaml') as f:
+CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'config.yaml')
+
+with open(CONFIG_PATH) as f:
     data = yaml.safe_load(f)
 
 
